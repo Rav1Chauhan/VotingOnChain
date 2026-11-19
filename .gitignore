@@ -6,3 +6,6 @@ node_modules
 test-ledger
 .yarn
 .surfpool
+voting-frontend/node_modules
+voting-frontend/dist
+voting-frontend/.env
