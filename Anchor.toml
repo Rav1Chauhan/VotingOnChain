@@ -9,8 +9,11 @@ skip-lint = false
 [programs.localnet]
 voting_on_chain = "6fDL4DShGriVMZy4pFQUhieLLnUEzmedmwXrcXVwk7Vm"
 
+[programs.devnet]
+voting_on_chain = "6fDL4DShGriVMZy4pFQUhieLLnUEzmedmwXrcXVwk7Vm"
+
 [provider]
-cluster = "localnet"
+cluster = "devnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
